@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [PurchseSuite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="purchase1(failed)">
+    <classes>
+      <class name="com.w2a.suite.purchaseset1.testcase.purchaseXbox">
+        <methods>
+          <include name="purchasexbox"/>
+        </methods>
+      </class> <!-- com.w2a.suite.purchaseset1.testcase.purchaseXbox -->
+    </classes>
+  </test> <!-- purchase1(failed) -->
+</suite> <!-- Failed suite [PurchseSuite] -->

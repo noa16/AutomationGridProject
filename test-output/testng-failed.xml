@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="Ps4(failed)">
+    <classes>
+      <class name="com.w2a.suite.purchaseset1.testcase.PurchasePs4">
+        <methods>
+          <include name="purchaseps4" invocation-numbers="0"/>
+          <include name="endUp"/>
+        </methods>
+      </class> <!-- com.w2a.suite.purchaseset1.testcase.PurchasePs4 -->
+    </classes>
+  </test> <!-- Ps4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

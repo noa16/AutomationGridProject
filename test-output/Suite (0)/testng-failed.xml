@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT">
+  <test name="Xbox(failed)">
+    <classes>
+      <class name="com.w2a.suite.purchaseset1.testcase.purchaseXbox">
+        <methods>
+          <include name="purchasexbox" invocation-numbers="1 0 2"/>
+        </methods>
+      </class> <!-- com.w2a.suite.purchaseset1.testcase.purchaseXbox -->
+    </classes>
+  </test> <!-- Xbox(failed) -->
+  <test name="Ps4(failed)">
+    <classes>
+      <class name="com.w2a.suite.purchaseset1.testcase.PurchasePs4">
+        <methods>
+          <include name="purchaseps4" invocation-numbers="0 2 1"/>
+        </methods>
+      </class> <!-- com.w2a.suite.purchaseset1.testcase.PurchasePs4 -->
+    </classes>
+  </test> <!-- Ps4(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
